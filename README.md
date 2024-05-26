@@ -265,6 +265,60 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [27PaddingOracleAttackonWalletdat](https://github.com/demining/CryptoDeepTools/tree/main/27PaddingOracleAttackonWalletdat)
+
+
+* Padding Oracle Attack This method is a side-channel attack on the Bitcoin Core cryptosystem that uses leaked data from a poorly implemented decryption routine to completely undermine the cryptosystem. An attacker can effectively decrypt the data in the wallet.dat file without knowing the decryption key if the target system leaks whether a padding error occurred when decrypting the ciphertext. Let's look at an example with a total loss: 44502.42 US dollars // BITCOIN: 1.17461256 BTC
+
+* Tutorial: https://youtu.be/0aCfT-kCRlw
+* Tutorial: https://cryptodeeptech.ru/padding-oracle-attack-on-wallet-dat
+
+---
+
+## [28DustAttack](https://github.com/demining/CryptoDeepTools/tree/main/28DustAttack)
+
+
+* "Dust Attack" known as: "Dusting Attack" or "Crypto Dust". Perhaps every cryptocurrency user or holder of a large amount of BTC, ETH coins replaced the receipt of an insignificantly small amount of coins in satoshi on their cryptocurrency wallet, this receipt is disguised as “Donate”, but in fact it is a whole mathematically refined system for taking away all the accumulated coins of the wallet for balance. Let's look at two different examples of dust attacks to shed light on all the intricacies of this manipulation and what risks can await users and holders of the popular cryptocurrency Bitcoin. To carry out a dust attack, confirmation of isomorphism by miners plays an important role, because From 2022 to 2024, many cryptocurrency services and hardware wallets are actively fighting the dust attack. At the moment, the method of independently creating dust transactions on your own cold wallet has become widely popular. Let's transform the dust transaction into isomorphism, according to the theory, two transactions must be confirmed by miners. Having created the RawTX of the dust attack, we send a small amount of 555 satoshi, then we receive an isomorphism of the first transaction, where a reverse transfer of funds occurs from the balance of the victim of the dust attack.
+
+* Tutorial: https://cryptodeeptech.ru/dustattack
+* Tutorial: https://dzen.ru/video/watch/65be9256df804947fbd96fd7
+* Tutorial: https://rutube.ru/video/23d09792ab3d180f526dd55314a14cd7
+
+---
+
+## [29BitcoinUtilities](https://github.com/demining/CryptoDeepTools/tree/main/29BitcoinUtilities)
+
+
+* Bitcoin utilities are numerous and varied. Its decentralized nature and lack of intermediaries make it a powerful tool for a variety of use cases. As the technology continues to evolve and mature, we can expect to see even more innovative applications of Bitcoin in the future.
+
+* Tutorial: https://cryptodeeptech.ru/bitcoin-utilities
+* Tutorial: https://dzen.ru/video/watch/65de483b3474ef16c0430f35
+* Tutorial: https://colab.research.google.com/drive/17R_qWLkpz2HJsASCRXG-Brcs-Nhv9xxR
+
+---
+
+## [30GaussJacobiMethod](https://github.com/demining/CryptoDeepTools/tree/main/30GaussJacobiMethod)
+
+
+* Application of the Gauss-Jacobi method for a cryptographic task - decrypting the password of the wallet.dat file for a Bitcoin wallet. The modification of the algorithm emphasizes its mathematical basis, explaining the process, how this method can be adapted to work with cryptographic tasks, in particular, with decrypting the password of a cryptocurrency wallet.
+
+* Tutorial: https://cryptodeeptech.ru/gauss-jacobi-method
+* Tutorial: https://dzen.ru/video/watch/66119078be267c07401d9e4c
+* Tutorial: [https://colab.research.google.com/drive/1I8vNdD2l2wdLiszoDBBkDjhepXjnWGR_](https://colab.research.google.com/drive/1I8vNdD2l2wdLiszoDBBkDjhepXjnWGR_)
+
+---
+
+## [31BlockchainAPI](https://github.com/demining/CryptoDeepTools/tree/main/31BlockchainAPI)
+
+
+* The scientific article explores the possibilities of integrating blockchain technologies with web services and APIs. Discusses the benefits of using blockchain APIs to improve the security, transparency and efficiency of web applications. Examples of successful blockchain projects are given and prospects for the development of this area are discussed.
+
+* Tutorial: https://cryptodeeptech.ru/blockchain-api-and-web-services
+* Tutorial: https://dzen.ru/video/watch/6617ad848b9fc93b9ba699c7
+* Tutorial: [https://colab.research.google.com/drive/19Phx62sS0XpLGtzjFFLIqkvjfTGtq2db](https://colab.research.google.com/drive/19Phx62sS0XpLGtzjFFLIqkvjfTGtq2db)
+
+---
+
 
 
 
