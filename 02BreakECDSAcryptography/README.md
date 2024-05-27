@@ -19,18 +19,16 @@ Script [breakECDSA.py](https://github.com/demining/CryptoDeepTools/blob/main/02B
 ---
 
 ## Commands:
-
-    git clone https://github.com/demining/CryptoDeepTools.git
     
-    cd CryptoDeepTools/02BreakECDSAcryptography/
+    cd 02BreakECDSAcryptography/
     
-    sudo apt install python2-minimal
+    sudo apt install python3
     
     wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
     
-    sudo python2 get-pip.py
+    sudo python3 get-pip.py
     
-    pip2 install -r requirements.txt
+    pip3 install -r requirements.txt
 
     chmod +x getsign.sh
     
